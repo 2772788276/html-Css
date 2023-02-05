@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>antd静态页面</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+</head>
+<head>
+<nav>
+    <div class="text">
+        <img src="image/logo.svg" alt="" class="logo">
+        <span class="ant">Ant Design</span>
+    </div>
+    <div class="ser">
+        <input type="text" placeholder="输入关键字搜索..." />
+        <span class="ctrl">Ctrl&nbsp;K</span>
+    </div>
+    <ul class="dis">
+        <li>设计</li>
+        <li>研发</li>
+        <li>组件</li>
+        <li>博客</li>
+        <li>资源</li>
+        <li class="in">国内镜像</li>
+        <span class="version" title="5.1.7" >
+            5.1.7<em class="down"></em>
+         </span>
+        <span class="gengduo">更多&nbsp;<i class="iconfont icon-chevron-down"></i></span>
+        <div class="zhankai">
+            <div class="one">Ant&nbsp;Design&nbsp;Charts</div><br>
+            <div class="two">Ant&nbsp;Design&nbsp;Pro</div><br>
+            <div class="three">Ant&nbsp;Design&nbsp;Pro&nbsp;Componens</div><br>
+            <div class="four">Ant&nbsp;Design&nbsp;of&nbsp;Angular<i>&nbsp;(社区实现)</i></div><br>
+            <div class="five">Ant&nbsp;Design&nbsp;of&nbsp;Vue<i>&nbsp;(社区实现)</i></div><br>
+        </div>
+        <span class="ench"><i class="iconfont icon-yingwen_o"></i><i class="iconfont icon-zhongwen"></i></span>
+        <div class="or"><div class="sanjiao1"></div> 中文/English</div>
+        <span class="ltr"><i class="iconfont icon-ltr"></i></span>
+        <div class="LTR"><div class="sanjiao2"></div> LTR</div>
+        <span class="github"><i class="iconfont icon-github-fill"></i></span>
+        <div class="Github"><div class="sanjiao3"></div> Github</div>
+    </ul>    
+</nav>
+<div class="second">
+<video src="image/video.webm" class="video" autoplay="autoplay"  loop="loop" muted ></video>
+</div>
+<div class="transparent"></div>
+<div class="mirror">
+    <div class="office"><img src="image/antd.png" alt="">&nbsp;&nbsp;官方镜像</div>
+    <div class="gitee"><img src="image/gitee.png" alt="">&nbsp; Gitee&nbsp;镜像</div>
+</div>
+<header>
+    <div class="background1">
+        <img src="image/thridbg.svg" alt="" class="bg1">
+        <img src="image/forthbg.svg" alt="" class="bg2">
+    </div>
+    <h1 class="title">Ant&nbsp;Design&nbsp;5.0</h1>
+    <p>助力设计开发者「更灵活」地搭建出「更美」的产品，让用户「快乐工作」～</p>
+    <a href="#" class="beg">开始使用</a>
+    <a href="#" class="deg">设计语言</a>
+    <ul class="his">
+        <li><h1 class="h">Ant Design 5.0 发布！</h1>
+            <div class="content">Design Token 全面升级，更灵活的动态主题能力！</div>
+            2022-11-18 <img src="image/tip1.png" alt="" class="tip1">
+        </li>
+        <li>
+            <h1 class="h">Ant Design MetaGuide 设计系统元规范</h1>
+            <div class="content">为设计系统建设者提供一套简单的理论、方法，让组件做与不做、好与不好都有确定的判断依据</div>
+            2022-11-28<img src="image/tip1.png" alt="" class="tip1">
+        </li>
+        <li>
+            <h1 class="h">dumi 2.0 发布</h1>
+            <div class="content">为组件研发而生，震撼来袭！</div>
+            2022-11-28<img src="image/tip2.png" alt="" class="tip1">
+        </li>
+    </ul>
+</header>
+<article>
+    <img src="image/fifthbg.svg" alt="" class="bg3">
+    <img src="image/sixthbg.svg" alt="" class="bg4">
+    <h1 class="hd">定制主题，随心所欲</h1>
+    <p class="ad">Ant Design 5.0 开放更多样式算法，让你定制主题更简单</p>
+    <div class="bd">
+        <div class="bdhd"><img src="image/logo.svg" alt="" class="logo">
+            Ant Design 5.0
+            <div class="protrait"></div>
+            <i class="iconfont icon-yiwen"></i><i class="iconfont icon-bell"></i>
+        </div>
+        <ul class="artul">
+            <li><i class="iconfont icon-folder-close"></i> &nbsp;Design<i class="iconfont icon-arrow-down"></i> </li>
+            <li>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Design Values</li>
+            <li>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Global Styles</li>
+            <li>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Themes</li>
+            <li>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Design Patterns</li>
+            <li><i class="iconfont icon-folder-close"></i> &nbsp;Development</li>
+        </ul>
+        <div class="sh">
+            <span><i class="iconfont icon-zhuye"></i>&nbsp;/&nbsp;
+                <span class="de">
+                    Design
+                    <i class="iconfont icon-chevron-down"></i>
+                </span>/&nbsp;
+                <ul class="content2">
+                    <li>Design Values</li>
+                    <li>Global Styles</li>
+                    <li>Themes</li>
+                    <li>Design Patterns</li>
+                </ul>
+            </span>Themes
+        </div>
+        <h1>定制主题</h1>
+        <div class="much">
+            <div class="muhd">
+                <span>我的主题</span>
+                <a href="#" class="shendu">深度定制</a>
+                <a href="#" class="go">去使用</a>
+            </div>
+            <div class="mubd">
+                <ul>
+                    <li class="theme">主题:
+                        <div class="f"><img src="image/theme1.svg" alt="" class="white">默认</div>
+                        <div><img src="image/theme2.svg" alt="" class="black">暗黑</div>
+                        <div><img src="image/theme3.svg" alt="" class="green">知识协作</div>
+                        <div><img src="image/theme4.svg" alt="" class="pink">桃花缘</div>
+                    </li>
+                    <li class="color">主色：
+                        <input type="text"  value="#1677FF">
+                        <div class="muco">
+                            <span class="blue"></span>
+                            <span class="pb"></span>
+                            <span class="purple"></span>
+                            <span class="pink1"></span>
+                            <span class="red"></span>
+                            <span class="orange"></span>
+                            <span class="yellow"></span>
+                            <span class="green"></span>
+                            <span class="colours"></span>
+                        </div>
+                    </li>
+                    <li class="radius">圆角：
+                        <input type="text"  value="6px"><input type="range" value="6px">
+                    </li>
+                    <li class="relax">宽松度：
+                        <div class="radio1"><span></span></div>&nbsp;默认&nbsp;&nbsp;
+                        <div class="radio2"><span></span></div>&nbsp;紧凑
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</article>
+<aside>
+       <h1>组件丰富，选用自如</h1>
+       <p>大量实用组件满足你的需求，灵活定制与拓展</p>
+       <div class="datepicker">
+           <div class="dateser"><h2>DatePicker</h2><span class="gengxin">更新</span></div>
+           <div class="date">
+            <input type="text" value="2022-11-18">
+            <i class="iconfont icon-rili"></i>
+           </div>
+           <div class="datecontent">
+           <div class="day">
+                <div>昨天</div> 
+                <div>上周</div> 
+                <div>上月</div> 
+                <div>去年</div> 
+           </div>
+           <div class="dayhead">
+            <i class="iconfont icon-fanye-zuo"></i>&nbsp;<i class="iconfont icon-fanye1"></i>
+            <span>2022年</span><span>&nbsp;11月</span>
+            <i class="iconfont icon-fanye-you"></i>&nbsp;<i class="iconfont icon-fanye"></i>
+           </div>
+           <div class="table">
+             <table>
+              <tr class="one1">
+                <th>一</th>
+                <th>二</th>
+                <th>三</th>
+                <th>四</th>
+                <th>五</th>
+                <th>六</th>
+                <th>七</th>
+              </tr>
+              <tr>
+                <td class="thirtyone"><span>31</span></td>
+                <td title="2022-11-01"><span>1</span></td>
+                <td title="2022-11-02"><span>2</span></td>
+                <td title="2022-11-03"><span>3</span></td>
+                <td title="2022-11-04"><span>4</span></td>
+                <td title="2022-11-05"><span>5</span></td>
+                <td title="2022-11-06"><span>6</span></td>
+              </tr>
+              <tr>
+                <td title="2022-11-07"><span>7</span></td>
+                <td title="2022-11-08"><span>8</span></td>
+                <td title="2022-11-09"><span>9</span></td>
+                <td title="2022-11-10"><span>10</span></td>
+                <td title="2022-11-11"><span>11</span></td>
+                <td title="2022-11-12"><span>12</span></td>
+                <td title="2022-11-13"><span>13</span></td>
+              </tr>
+              <tr>
+                <td title="2022-11-14"><span>14</span></td>
+                <td title="2022-11-15"><span>15</span></td>
+                <td title="2022-11-16"><span>16</span></td>
+                <td title="2022-11-17"><span>17</span></td>
+                <td title="2022-11-18"><span class="eighteen">18</span></td>
+                <td title="2022-11-19"><span>19</span></td>
+                <td title="2022-11-20"><span>20</span></td>
+              </tr>
+              <tr>
+                <td title="2022-11-21"><span>21</span></td>
+                <td title="2022-11-22"><span>22</span></td>
+                <td title="2022-11-23"><span>23</span></td>
+                <td title="2022-11-24"><span>24</span></td>
+                <td title="2022-11-25"><span>25</span></td>
+                <td title="2022-11-26"><span>26</span></td>
+                <td title="2022-11-27"><span>27</span></td>
+              </tr>
+              <tr>
+                <td title="2022-11-28"><span>28</span></td>
+                <td title="2022-11-29"><span>29</span></td>
+                <td title="2022-11-30"><span>30</span></td>
+                <td class="yi"><span>1</span></td>
+                <td class="e"><span>2</span></td>
+                <td class="san"><span>3</span></td>
+                <td class="si"><span>4</span></td>
+              </tr>
+              <tr class="seven">
+                <td><span>5</span></td>
+                <td><span>6</span></td>
+                <td><span>7</span></td>
+                <td><span>8</span></td>
+                <td><span>9</span></td>
+                <td><span>10</span></td>
+                <td><span>11</span></td>
+              </tr>
+             </table>
+           </div>
+
+           </div>
+       </div>
+       <div class="progress">
+        <div class="dateser"><h2>Progress</h2><span class="gengxin">更新</span></div>
+        <div class="state">
+            <div><img src="image/progress.png">&nbsp;&nbsp;进行中</div>
+            <div><img src="image/sucess.png">&nbsp;&nbsp;成功</div>
+            <div><img src="image/fail.png">&nbsp;&nbsp;任务失败</div>
+        </div>
+       </div>
+       <div class="tour">
+         <div class="dateser"><h2>Tour</h2><span class="xinzeng">新增</span></div>
+         <div class="message">
+         <div class="message1">
+         <div class="mhd">Ant Design 5.0<span><i class="iconfont icon-cuowuguanbiquxiao"></i></span></div>
+         <div class="attachment">漫游导览帮助用户对新加的功能进行快速了解</div>
+         <div class="tools">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="four4"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="#" class="former">上一步</a>
+            <a href="#" class="later">下一步</a>
+         </div>
+         </div>
+         <span class="needle"></span>
+         </div>
+       </div>
+       <div class="floatbutton">
+        <div class="dateser"><h2>FloatButton</h2><span class="xinzeng">新增</span></div>
+       <div class="square">
+        <div><i class="iconfont icon-31yiwen"></i></div>
+        <div><i class="iconfont icon-tingge"></i></div>
+        <div><i class="iconfont icon-duoxunhuan"></i></div>
+       </div>
+       <div class="circle1"><i class="iconfont icon-dingzhi"></i></div>
+       <div class="circle">
+        <div><i class="iconfont icon-31yiwen"></i></div>
+        <div><i class="iconfont icon-tingge"></i></div>
+        <div><i class="iconfont icon-duoxunhuan"></i></div>
+       </div>
+       </div>
+       <div class="modal">
+        <div class="dateser"><h2>Modal</h2><span class="gengxin">更新</span></div>
+        <div class="message1">
+            <div class="mhd">Ant Design 5.0<span><i class="iconfont icon-cuowuguanbiquxiao"></i></span></div>
+            <div class="attachment">Ant Design 5.0 使用 CSS-in-JS 技术以提供动态与混合主题的能力。与此同时，我们使用组件级别的 CSS-in-JS 解决方案，让你的应用获得更好的性能。</div>
+               <a href="#" class="quxiao">取消</a>
+               <a href="#" class="queding">确定</a>
+            </div>
+       </div>
+       <div class="alert">
+        <div class="dateser"><h2>Alert</h2><span class="gengxin">更新</span></div>
+        <div class="message2">
+            <div class="mhd">Ant Design 5.0<span><i class="iconfont icon-cuowuguanbiquxiao"></i></span></div>
+            <div class="attachment">Ant Design 5.0 使用 CSS-in-JS 技术以提供动态与混合主题的能力。与此同时，我们使用组件级别的 CSS-in-JS 解决方案，让你的应用获得更好的性能。</div>
+       </div>
+       </div>
+       </div>
+</aside>
+<div class="applicate">
+    <h1>设计语言与研发框架</h1>
+    <p class="p1">配套生态，让你快速搭建网站应用</p>
+    <div class="applicate1">
+        <div><img src="image/app1.svg"><h3>设计价值观</h3><p>确定性、意义感、生长性、自然</p></div>
+        <div><img src="image/app2.svg"><h3>设计指引</h3><p>全局样式、设计模式</p></div>
+        <div><img src="image/app3.svg"><h3>组件库</h3><p>Ant Design of React / Angular / Vue</p></div>
+    </div>
+    <div class="applicate2">
+        <div><div class="ige"><img src="image/app4.svg" class="app4"></div><h3>Ant Design Mobile</h3><p>Ant Design 移动端 UI 组件库</p></div>
+        <div><div class="ige"><img src="image/app5.png" class="app5"></div><h3>AntV</h3><p>全新一代数据可视化解决方案</p></div>
+        <div><div class="ige"><img src="image/app6.svg" class="app6"></div><h3>Kitchen</h3><p>一款为设计者提升工作效率的 Sketch 工具集</p></div>
+    </div>
+</div>
+</head>
+</body>
+</html>
