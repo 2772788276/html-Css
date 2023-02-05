@@ -1,0 +1,1524 @@
+* {
+    margin:0;
+    padding:0;
+    transition:border-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji',sans-serif;;
+}
+body{
+    width:1580px;
+    margin: 0 auto;
+    position: relative;
+}
+nav{
+    position: relative;
+    height: 64px;
+    background-color:#fff ;
+    line-height: 64px;
+    border-top: 1px solid #ced4d9;
+}
+.text{
+    cursor: pointer;
+    float: left;
+}
+nav .logo{
+    display: inline-block;
+    height: 32px;
+    vertical-align: middle;
+    padding-left:40px ;
+}
+.ant{
+    height: 32px;
+    padding-left: 6px;
+    padding-top: 2px;
+    font:650 18px AlibabaPuHuiTi,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji',sans-serif;
+    color:  rgba(0,0,0,0.88);
+    line-height: 32px;
+    padding-right: 145px;
+    }
+.ser{
+    float: left;
+    width: 300px;
+    height: 64px;
+}
+.ser::before{
+    position: relative;
+    top:5px;
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 26px;
+    background-image: url(image/ser.png);
+    background-position: -5px 1px;
+    border-left: 1px solid rgb(240, 240, 240);
+}
+.ser input[type=text]{
+    border: none;
+    padding-left: 3px;
+    width: 175px;
+}
+input::-webkit-input-placeholder{
+    color:rgb(207, 212, 217);
+    font-size: 14px;
+}
+ .ser span{
+    display: inline-block;
+    width: 46px;
+    height:21px;
+    padding: 4px 8px;
+    border: 1px solid rgba(100,100,100,0.2);
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 14px;
+    box-sizing: border-box;
+    background-color: rgba(150, 150, 150, 0.06);
+    color:  #ced4d9;
+    cursor: text;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+.ser span:hover{
+    background-color: transparent;
+    color: transparent;
+    border-color: transparent;
+    transition: all 0.5s;
+}
+.dis{
+    position: absolute;
+    right: 110px;
+    cursor: pointer;
+}
+.dis li{
+    float: left;
+    height: 64px;
+    box-sizing: border-box;
+}
+.dis li{
+    margin: 0px 12px;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji',sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.dis li:hover {
+    border-top: 3px solid rgb(63, 121, 255);
+    line-height: 59px;
+    transition: border-radius 0.3s;
+    border-radius: 1px;
+}
+.dis span{
+    cursor: pointer;
+    box-sizing: border-box;
+    line-height:24px;
+    padding-left:10px;
+    height: 24px;
+    width: 65px;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid rgb(217,217,217);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.down{
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background-image: url(image/down.png);
+    background-position: 0 -4px;
+}
+.version:hover{
+    border-color: rgb(90, 152, 255);
+
+}
+.dis .gengduo{
+    position: relative;
+    padding-left:6px;
+    width:58px ;
+    height: 24px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+.icon-chevron-down{
+    position: absolute;
+    right: 5px;
+}
+.gengduo:hover{
+    border-color: rgb(90, 152, 255);
+    color: rgb(90, 152, 255);
+    transition: color 0.3s;
+}
+.dis .ench,.dis .ltr,.dis .github{
+    position: relative;
+    width: 29px;
+    height: 29px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    z-index: 0.4;
+    border-color: transparent;
+}
+.dis .ench:hover,.dis .ltr:hover,.dis .github:hover{
+    background-color: rgb(239, 239, 239);
+}
+.icon-yingwen_o{ 
+    z-index: 0.5;
+    position: relative;
+    top: 4px;
+}
+.icon-zhongwen{
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    z-index: 0.6;
+}
+.icon-ltr{
+    position: absolute;
+    top: 2px;
+    left: 4px;
+}
+.icon-github-fill{
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
+.second{
+    margin: 0 auto;
+    position: relative;
+    height: 320px;
+    width: 100%;
+    z-index: 0.4;
+    display: inline-block;
+}
+.video{
+    margin: 0 auto;
+    position: relative;
+    right: 40px;
+    bottom: 25px;
+    height: 350px;
+    width: 100%;
+    
+}
+
+.mirror{
+    display: inline-block;
+    position: absolute;
+    top: 69px;
+    right: 280px;
+    height: 90px;
+    background-color:rgb(255,255,255);
+    width: 160px;
+    border-radius: 8px;
+    padding: 4px;
+    box-sizing: border-box;
+    display: none;
+}
+.transparent{
+    background-color: transparent;
+    display: inline-block;
+    height: 64px;
+    width: 60px;
+    position: relative;
+    left: 1130px;
+    bottom:417px;
+    z-index: 1;
+    
+}
+.transparent:hover  +.mirror{
+    display: block;
+    transition: all 1s ease 1s;
+}
+.transparent:hover{
+    border-top:3px solid rgb(63, 121, 255) ;
+    transition: border-radius 0.3s;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.office,.gitee{
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+    margin: 0,auto;
+    background-color: rgb(255, 255, 255);
+    text-indent: 17px;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji',sans-serif;
+    font-size: 14px;
+    border-radius: 8px;
+}
+.mirror img{
+    vertical-align: middle;
+}
+.mirror .office:hover,.mirror .gitee:hover{
+    background-color: rgb(240, 240, 240);
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+nav .dis .zhankai{
+    display: inline-block;
+    width: 250px;
+    height: 160px;
+    position: absolute;
+    right:120px;
+    top: 40px;
+    z-index: 2;
+    background-color:rgb(255,255,255);
+    border-radius: 8px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    box-shadow: -1px 1px 15px -5px ;
+    display: none;
+}
+.gengduo:hover +.zhankai{
+    display: block;
+}
+nav .dis .zhankai .one,nav .dis .zhankai .two,nav .dis .zhankai .three,nav .dis .zhankai .four,nav .dis .zhankai .five{
+
+    width: 210px;
+    height: 30px;
+    line-height: 20px;
+    background-color: rgb(255, 255, 255);
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji',sans-serif;
+    font-size: 14px;
+    border-radius: 8px;
+}
+.one{
+    position: absolute;
+    top:2px;
+    left:16px ;
+}
+.two{
+    position: absolute;
+    top: 33px;
+    left:16px ;
+}
+.three{
+    position: absolute;
+    top: 65px;
+    left:16px ;
+}
+.four{
+    position: absolute;
+    top:95px;
+    left:16px ;
+}
+.five{
+    position: absolute;
+    top: 126px;
+    left:16px ;
+}
+nav .dis .one:hover,nav .dis .two:hover,nav .dis .three:hover,nav .dis .four:hover,nav .dis .five:hover{
+    background-color: rgb(245,245,245);
+}
+.four i,.five i{
+    font-style: normal;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(180, 180, 180);
+}
+.mirror:hover,nav .dis .zhankai:hover{
+    display: block;
+}
+.or,.LTR,.Github{
+    display: inline-block;
+    position: absolute;
+    top: 65px;
+    z-index: 2;
+    height: 30px;
+    line-height: 30px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 2px 7px;
+    
+}
+.dis .or .sanjiao1,.dis .LTR .sanjiao2,.sanjiao3{
+display: inline-block;
+position: absolute;
+right: 40%;
+top: -17px;
+height: 0px;
+width: 0px;
+line-height: 0px;
+font-size: 0px;
+border: 10px solid transparent;
+border-bottom: 10px solid black;
+z-index: 1;
+}
+.dis .LTR .sanjiao2{
+    position: absolute;
+    right: 25%;
+}
+.or{
+    position: absolute;
+    right: 45px;
+    display: none;
+}
+.LTR{
+    position: absolute;
+    right: 30px;
+    display: none;
+}
+.Github{
+    position: absolute;
+    right: -28px;
+    display: none;
+}
+.dis .ench:hover  +.or,.dis .ltr:hover  +.LTR,.dis .github:hover  +.Github{
+    display: block;
+}
+header{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 125px;
+    right: 40px;
+    box-sizing: border-box;
+}
+.bg1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+.bg2{
+    position: absolute;
+    right: 105px;
+    top: 0;
+    height: 200px;
+    width: 200px;
+}
+.title{
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 68px;
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+header p{
+    text-align: center;
+    position: relative;
+    top: 75px;
+}
+.beg,.deg{
+    display: inline-block;
+    padding: 8px 15px;
+    position: absolute;
+    bottom: 40%;
+    border-radius: 8px;
+}
+header .deg{
+    position: absolute;
+    left: 800px;
+    color: rgb(31, 31, 31);
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(217, 217, 217);
+}
+header .beg{
+    position: absolute;
+    left: 670px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(75, 135, 254);
+}
+header .beg:hover{
+    background-color: rgb(90, 152, 255);
+    color: rgb(252, 252, 252);
+    transition: all 0.3s;
+}
+header .deg:hover{
+    border-color: rgb(90, 152, 255);
+    color: rgb(90, 152, 255);
+    transition: all 0.3s;
+}
+.his li{
+   float: left;
+   width: 345px;
+   height: 150px;
+   background-color: rgb(255, 255, 255);
+   margin-left: 40px;
+   box-sizing: border-box;
+   padding: 20px 20px;
+   font-size: 14px;
+   color: rgb(31, 31, 31);
+   border: 1px solid rgb(240, 240, 240);
+   border-radius: 8px;
+}
+.his{
+    position: relative;
+    top: 250px;
+    left:190px;
+}
+.his li .h{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(31, 31, 31);
+    display: inline-block;
+    margin-bottom: 8px;
+}
+ .his li .content{
+    font-size: 14px;
+    color: rgb(140, 140, 140);
+    height:60px;
+}
+.tip1{
+    vertical-align: middle;
+    float: right;
+}
+.his li:hover{
+    box-shadow: 1px 5px 17px -8px;
+    transition: all 0.3s;
+}
+article{
+    height: 1000px;
+    display: inline-block;
+    width: 100%;
+    background-color:rgb(246, 248, 255);
+    position: relative;
+    z-index: 0.5;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.bg3{
+    position: absolute;
+    left: -210px;
+    top:-160px;
+    height: 600px;
+    
+}
+.bg4{
+    position: absolute;
+    right: 70px;
+    bottom: -90px;
+}
+.hd{
+    margin-top: 120px;
+    font-size: 38px;
+    font-weight: 900;
+}
+.ad{
+    margin-top: 23px;
+    font-size: 14px;
+}
+.bd{
+    display: inline-block;
+    position: relative;
+    height: 610px;
+    width: 1115px;
+    margin: 0 auto;
+    background-color: rgba(245, 247, 253);
+    margin-top: 65px;
+    border-radius: 8px;
+    box-shadow: 1px 5px 17px -6px;
+}
+.bdhd{
+    width: 100%;
+    height: 65px;
+    line-height: 60px;
+    display: inline-block;
+    background-color: rgb(244, 247, 253);
+    border-radius: 8px 8px 0 0;
+    position: relative;
+    border-bottom: 1px solid rgb(229, 231, 238);
+}
+.bdhd .logo{
+    display: inline-block;
+    position: absolute;
+    top:15px;
+    left: 20px;
+    height: 32px;
+}
+article .bd .bdhd{
+    text-align: left;
+    text-indent: 4em;
+}
+.protrait{
+    float: right;
+    margin-right: 1em;
+    margin-top: 15px;
+    height: 35px;
+    width: 35px;
+    border-radius: 17.5px;
+    background-image: url(image/protrait.png);
+    background-position-y:-3px ;
+}
+.icon-yiwen{
+    position: absolute;
+    right: 70px;
+}
+.icon-bell{
+    position: absolute;
+    right: 110px;
+}
+.artul{
+    width: 200px;
+    height: 545px;
+    background-color: rgb(244, 247, 253);
+    text-align: left;
+    border-radius: 0 0 0 8px;
+    box-sizing: border-box;
+    padding-top: 4px;
+}
+.artul li{
+    width: 190px;
+    height: 40px;
+    background-color: rgb(245, 247, 253);
+    margin-left: 5px;
+    margin-right: 5px;
+   margin-bottom: 5px;
+   line-height: 40px;
+   text-align: left;
+   box-sizing: border-box;
+   padding-left: 20px;
+   font-size: 14px;
+   border-radius: 8px;
+   cursor: pointer;
+}
+.artul li:hover{
+    background-color: rgb(230, 232, 238);
+    transition: all 0.3s;
+}
+.artul li:active{
+    background-color: rgb(232, 244, 255);
+    transition: all 0.3s;
+}
+.artul li:nth-child(1){
+    color:rgb(96, 144, 255);
+    margin-top: 4px;
+}
+.artul li:nth-child(1):hover{
+    color: rgb(0,0,0);
+    transition: all 0.3s;
+}
+.icon-arrow-down{
+    float: right;
+    position: relative;
+    right: 14px;
+}
+.sh{
+    position: absolute;
+    left: 225px;
+    top: 83px;
+    font-size: 14px;
+}
+.icon-chevron-down{
+    position: relative;
+}
+.sh span{
+    color: rgb(168, 170, 175);
+}
+.de{
+    height: 25px;
+    line-height: 25px;
+    margin-left: 2px;
+    padding-left: 3px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.de:hover{
+    background-color: rgb(229, 231, 237);
+    color: rgb(56, 57, 58);
+    transition: all 0.3s;
+}
+.content2{
+    background-color:rgb(255, 255, 255);
+    display: inline-block;
+    height: 140px;
+    width: 135px;
+    z-index: 2;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 0px 3px;
+    display: none;
+    cursor: pointer;
+}
+.content2 li:nth-child(1){
+    margin-top: 5px;
+}
+.content2 li{
+    padding:1px 10px;
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: left;
+    color: rgb(62, 62, 62);
+    border-radius: 6px;
+}
+.content2 li:hover{
+    background-color:rgb(245, 245, 245);
+    transition: all 0.3s;
+}
+.de:hover +.content2,.content2:hover{
+    display: block;
+}
+.bd h1{
+    position: absolute;
+    top: 120px;
+    left:225px;
+    font-size: 30px;
+}
+.much{
+    display: inline-block;
+    height: 410px;
+    width: 870px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 435px;
+    left: 100px ;
+    z-index: 1.5;
+    border-radius: 8px;
+    border-color: rgb(240, 240, 240);
+}
+.muhd{
+    height: 57px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px 8px 0 0;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    text-align: left;
+    position: relative;
+    box-sizing: border-box;
+}
+.muhd span{
+    height: 100%;
+    line-height: 57px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.shendu,.go{
+    display: inline-block;
+    padding: 8px 15px;
+    position: absolute;
+    bottom: 40%;
+    border-radius: 8px;
+}
+.muhd .shendu{
+    position: absolute;
+    right: 110px;
+    top: 13px;
+    display: inline-block;
+    line-height: 16px;
+    height: 16px;
+    color: rgb(31, 31, 31);
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(217, 217, 217);
+    font-size: 14px;
+}
+.muhd .go{
+    position: absolute;
+    right: 20px;
+    top: 13px;
+    display: inline-block;
+    line-height: 16px;
+    height: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(75, 135, 254);
+}
+.go:hover{
+    background-color: rgb(90, 152, 255);
+    color: rgb(252, 252, 252);
+    transition: all 0.3s;
+}
+.shendu:hover{
+    border-color: rgb(90, 152, 255);
+    color: rgb(90, 152, 255);
+    transition: all 0.3s;
+}
+.mubd{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 353px;
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+    text-align: left;
+    box-sizing: border-box;
+}
+.mubd ul{
+    margin-left: 105px;
+    margin-top: 30px;
+    color: rgb(31, 31, 31);
+}
+.theme{
+    text-indent: 1em;
+    height: 140px;
+}
+.theme div{
+   display: inline-block;
+   width: 120px;
+   vertical-align: top;
+   padding-left: 20px;
+   text-align: center;
+   cursor: pointer;
+}
+.theme div img{
+    border-radius: 10px;
+    position: relative;
+    right: 20px;
+}
+.black:hover,.green:hover,.pink:hover{
+    transform:scale(1.06) ;
+    transition: all 0.3s;
+}
+div .white{
+    border:5px solid rgb(63, 121, 255);
+}
+.theme .f{
+    position: relative;
+    bottom:5px;
+}
+
+.color{
+    text-indent: 1em;
+    height: 56px;
+    box-sizing: border-box;
+}
+.radius{
+    text-indent: 1em;
+    height: 56px;
+}
+input[type="text"]{
+    vertical-align: middle;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(217, 217, 217);
+    font-size: 14px;
+}
+input[type="text"]:hover{
+    border-color: rgb(90, 152, 255);
+    transition: all 0.3s;
+}
+input:focus{
+    border-color: rgb(90, 152, 255);
+}
+.muco{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    
+}
+.muco span{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    position: relative;
+    top:6px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.blue{
+    background-color: rgb(63, 121, 255);
+    box-shadow:0 0 0 1px #ffffff, 0 0 0 5px #1677ff;
+}
+.pb{
+    background-color: rgb(97, 87, 252);
+}
+.purple{
+    background-color: rgb(151, 50, 160);
+}
+.pink1{
+    background-color: rgb(224, 61, 146);
+}
+.red{
+    background-color: rgb(211, 31, 40);
+}
+.orange{
+    background-color: rgb(232, 126, 0);
+}
+.yellow{
+    background-color: rgb(234, 188, 12);
+}
+.green{
+    background-color: rgb(67, 185, 105);
+}
+.colours{
+    background-image: url(image/colours.png);
+}
+/*横条样式*/
+input[type=range] {
+    -webkit-appearance: none;
+    width: 150px;
+    background: -webkit-linear-gradient(rgb(156, 203, 255), rgb(156, 203, 255)) no-repeat,rgb(245, 245, 245);/*设置左边颜色为#61bd12，右边颜色为#ddd*/
+    background-size: 50% 100%;/*设置左右宽度比例*/
+    height: 3px;/*横条的高度*/
+    margin: 20px;
+  }
+  /*拖动块的样式*/
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;/*清除系统默认样式*/
+    height: 15px;/*拖动块高度*/
+    width: 15px;/*拖动块宽度*/
+    background: #fff;/*拖动块背景*/
+    border-radius: 50%; /*外观设置为圆形*/
+    border: solid 3px rgb(156, 203, 255); /*设置边框*/
+  }
+input[type=range]::-webkit-slider-thumb:hover{
+    -webkit-appearance: none;
+    border: 4px solid rgb(63, 121, 255);
+    height: 20px;
+    width: 20px;
+    transition: all 0.3s;
+  }
+input[type=range]:hover{
+    background: -webkit-linear-gradient(rgb(122, 178, 255), rgb(122, 178, 255)) no-repeat,rgb(240, 240, 240);
+    background-size: 50% 100%;
+    transition: all 0.3s;
+  }
+.radio1{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color:rgb(63, 121, 255);
+    border: 1px solid rgb(217, 217, 217);
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+}
+.radio2{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgb(217, 217, 217);
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+}
+.radio1 span,.radio2 span{
+    position: absolute;
+    top:4px;
+    left: 4px;
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.radio2:hover{
+    border-color: #1677ff;
+}
+aside{
+    display:inline-block;
+    height:750px ;
+    width: 100%;
+    background-color: rgb(255, 255, 255,0.5);
+}
+aside h1,.applicate h1{
+    margin: 0 auto;
+    margin-top: 80px;
+    font-weight: 900;
+    text-align: center;
+    font-size: 38px;
+}
+aside p,.applicate .p1{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom:60px ;
+    font-size: 14px;
+}
+.datepicker{
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    width: 464px;
+    height: 436px;
+    background-color: rgb(246, 248, 255);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+h2{
+    font-weight: normal;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+.gengxin{
+    border: 1px solid rgb(250, 228, 139);
+    font-size: 12px;
+    display: inline-block;
+    line-height: 21px;
+    text-align: center;
+    width: 39px;
+    height: 21px;
+    background-color: rgb(254, 251, 229);
+    color: rgb(240, 171, 0);
+    position: relative;
+    bottom: 5px;
+    border-radius: 4px;
+}
+.date {
+    width: 156px;
+    height: 32px;
+    display: inline-block;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.date input[type="text"]{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 1px;
+    padding: 0;
+    color: rgba(56, 56, 56);
+    font-size: 14px;
+    line-height: 1.4px;
+    border:1px solid rgb(217, 217, 217)
+}
+.icon-rili{
+    color: rgb(190, 190, 190);
+    position: absolute;
+    right: 10px;
+    bottom: 7px;
+}
+.datecontent{
+   width: 400px; 
+   height: 282px;
+   background-color: rgb(255, 255, 255);
+   margin-left: 30px;
+   border-radius: 8px;
+   font-size: 14px;
+   box-shadow: 1px 0px 17px -8px;
+}
+.day{
+    float: left;
+    height: 100%;
+    width: 120px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px 0 0 8px;
+    border-right: 1px solid rgb(240, 240, 240);
+}
+.datecontent .day div{
+    background-color: rgb(255, 255, 255);
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 8px;
+    padding-left:7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.day div:hover{
+    background-color: rgb(245, 245, 245);
+    transition: all 0.3s;
+}
+.dayhead{
+    height: 40px;
+    float: left;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #ced4d9;
+    line-height: 40px;
+    border-radius: 0 8px 0 0;
+    text-align: center;
+    position: relative;
+}
+.dayhead span{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+}
+.table{
+    background-color: rgb(255, 255, 255);
+    height: 241px;
+    width: 280px;
+    float: left;
+    border-radius: 0 0 8px 0;
+}
+.dayhead .iconfont{
+    color: rgb(162, 162, 162);
+    font-size: 10px;
+    font-weight: 100;
+}
+.icon-fanye-zuo{
+    position: absolute;
+    left: 15px;
+}
+.icon-fanye1{
+    position: absolute;
+    left: 33px;
+}
+.icon-fanye-you{
+    position: absolute;
+    right: 15px;
+}
+.icon-fanye{
+    position: absolute;
+    right: 33px;
+}
+.iconfont:hover{
+    color: rgb(73, 73, 73);
+}
+.dayhead span:hover{
+    color:rgb(63, 121, 255);
+}
+table{
+    width: 100%;
+    height: 100%;
+    text-align: center;    
+}
+th,td{
+    box-sizing: border-box;
+    font-weight: 400;
+}
+table span{
+    padding: 2px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.thirtyone,.yi,.e,.san,.si,.seven{
+    color: rgb(204, 204, 204);
+
+}
+table span:hover{
+    background-color: rgb(245, 245, 245);
+    transition: all 0.3s;
+}
+.eighteen{
+    background-color: rgb(63, 121, 255);
+    color: #fff;
+}
+.progress{
+    display: inline-block;
+    position: relative;
+    left: 80px;
+    bottom:47px;
+    height: 436px;
+    width: 200px;
+    background-color: rgb(246, 248, 255);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.state img{
+    vertical-align: middle;
+}
+.state{
+    position: absolute;
+    left: 50px;
+    top:200px;
+    font-size:14px;
+    color: rgb(60, 60, 62);
+}
+.state div{
+    margin-top: 10px;
+}
+.tour{
+    background-color:rgb(246, 248, 255);
+    display: inline-block;
+    position: relative;
+    left:100px;
+    bottom:47px;
+    height: 436px;
+    width:415px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.xinzeng{
+    border: 1px solid rgb(156, 203, 255);
+    font-size: 12px;
+    display: inline-block;
+    line-height: 21px;
+    text-align: center;
+    width: 39px;
+    height: 21px;
+    background-color: rgb(232, 244, 255);
+    color: rgb(96, 145, 255);
+    position: relative;
+    bottom: 5px;
+    border-radius: 4px;
+}
+.message1{
+    display: inline-block;
+    position: relative;
+    height: 111px;
+    width: 355px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 1px 0px 17px -8px ;
+    padding: 17px 6px 6px 15px;
+}
+.message{
+    display: inline-block;
+    position: absolute;
+    top: 180px;
+    left:30px;
+    box-sizing: border-box;
+    height: 125px;
+    widows: 355px;
+    z-index: 1;
+}
+.needle{
+    z-index: 2;
+    position: relative;
+    bottom: 22px;
+    left: 145px;
+    border: 28px solid transparent;
+    border-top: 28px solid rgb(255, 255, 255);
+    transform: scale(0.4);
+    display:inline-block;
+    height: 0;
+    width: 0;
+    line-height: 0;
+}
+.mhd{
+    font-size: 14px;
+    font-weight: 600;
+}
+.icon-cuowuguanbiquxiao{
+    color: rgb(146, 146, 146);
+}
+.attachment{
+    font-size: 14px;
+    color: rgb(101, 101, 101);
+    margin-top: 10px;
+}
+.tools span{
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: #ced4d9;
+    margin-right: 2px;
+}
+.tools{
+    margin-top: 6px;
+    margin-left: 2px;
+}
+.tools .four4{
+    background-color: #1677ff;
+}
+.former,.later{
+    display: inline-block;
+    padding: 4px 10px;
+    position: absolute;
+    bottom: 40%;
+    border-radius: 4px;
+}
+.former{
+    position: relative;
+    top: 3px;
+    left: 70px;
+    display: inline-block;
+    line-height: 16px;
+    height: 16px;
+    color: rgb(31, 31, 31);
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(217, 217, 217);
+    font-size: 14px;
+}
+.later{
+    position: relative;
+    top:4px;
+    left: 75px;
+    display: inline-block;
+    line-height: 16px;
+    height: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(75, 135, 254);
+}
+.later:hover{
+    background-color: rgb(90, 152, 255);
+    color: rgb(252, 252, 252);
+    transition: all 0.3s;
+}
+.former:hover{
+    border-color: rgb(90, 152, 255);
+    color: rgb(90, 152, 255);
+    transition: all 0.3s;
+}
+.mhd span{
+    position: absolute;
+    top:17px;
+    right:20px;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    padding: 2px;
+    border-radius: 2px;
+    line-height: 15px;
+}
+.mhd span:hover{
+    background-color: rgb(240, 240, 240);
+    color: rgb(29, 29, 29);
+    transition: all 0.3s;
+}
+.floatbutton{
+    background-color:rgb(246, 248, 255);
+    display: inline-block;
+    position: relative;
+    left:125px;
+    bottom: 47px;
+    height: 436px;
+    width:232px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.square,.ciecle1,.circle{
+    display: inline-block;
+    position: absolute;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.square{
+    position: absolute;
+    left: 35px;
+    top: 185px;
+    height: 121px;
+    width: 40px;
+    border-radius: 8px;
+    box-shadow: 1px 0px 17px -8px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(31, 31, 31);
+}
+.square .iconfont{
+    padding: 6px;
+    border-radius: 4px;
+}
+.floatbutton .square div{
+    height: 40px;
+    border-bottom:1px solid rgb(240, 240, 240);
+    text-align: center;
+    line-height: 40px;
+}
+.circle1{
+    display: inline-block;
+    position: absolute;
+    top:230px;
+    left:100px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 0px 17px -8px;
+    font-size: 23px;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+.circle{
+    display: inline-block;
+    position: absolute;
+    top: 170px;
+    right:30px;
+}
+.circle1:hover,.circle div:hover,.square .iconfont:hover{
+    background-color: rgb(240, 240, 240);
+    transition: all 0.3s;
+}
+.circle div{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 0px 17px -8px;
+    font-size: 20px;
+    box-sizing: border-box;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.modal{
+    background-color:rgb(246, 248, 255);
+    display: inline-block;
+    position: absolute;
+    right: 1550px;
+    height: 436px;
+    width:350px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.modal .message1{
+    height: 200px;
+    width: 300px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 24px;
+    position: absolute;
+    left:20px;
+    bottom: 90px;
+    box-sizing: border-box;
+    line-height: 22px;
+}
+.quxiao,.queding{
+    display: inline-block;
+    padding: 8px 15px;
+    position: absolute;
+    bottom: 40%;
+    border-radius: 6px;
+}
+.quxiao{
+    position: absolute;
+    bottom: 17px;
+    right: 90px;
+    display: inline-block;
+    line-height: 16px;
+    height: 16px;
+    color: rgb(31, 31, 31);
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(217, 217, 217);
+    font-size: 14px;
+}
+.queding{
+    position: absolute;
+    bottom: 18px;
+    right: 20px;
+    display: inline-block;
+    line-height: 16px;
+    height: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(75, 135, 254)
+}
+.quxiao:hover{
+    border-color: rgb(90, 152, 255);
+    color: rgb(90, 152, 255);
+    transition: all 0.3s;
+}
+.queding:hover{
+    background-color: rgb(90, 152, 255);
+    color: rgb(252, 252, 252);
+    transition: all 0.3s;
+}
+.alert{
+    position: absolute;
+    right: -360px;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 436px;
+    width: 463px;
+    background-color: rgb(246, 248, 255);
+    border-radius: 8px;
+}
+.message2{
+    height: 140px;
+    width:400px;
+    line-height: 22px;
+    position: absolute;
+    bottom: 120px;
+    left: 30px;
+    display: inline-block;
+    background-color: rgb(232, 244, 255);
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px 50px 6px 20px;
+    border: 1px solid rgb(168, 209, 255);
+}
+.message2 .attachment{
+    font-size: 14px;
+    color: rgb(51, 54, 56);
+}
+.applicate{
+    display: inline-block;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(246, 248, 255);
+    background-image: url(image/seventhbg.svg);
+    background-repeat: no-repeat;
+    background-position: 0 -25px;
+    box-sizing: border-box;
+}
+.applicate1{
+    height: 224px;
+    margin-left: 210px;
+}
+.applicate1 div{
+    display: inline-block;
+    height: 255px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-right: 60px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.applicate1 img{
+    border-radius: 8px;
+    transform: scale(0.92);
+}
+.applicate1 h3,.applicate2 h3{
+    color: rgba(0,0,0,.88);
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 14px;
+    margin-top: 4px;
+}
+.applicate1 p,.applicate2 p{
+    font-size: 14px;
+    color: rgb(140, 140, 140);
+    padding-left: 14px;
+    margin-top: 10px;
+}
+.applicate2 {
+    height: 163px;
+    margin-left: 210px;
+    margin-top: 65px;
+}
+.applicate2 div{
+    display: inline-block;
+    position: relative;
+    height: 163px;
+    width: 350px;
+    background-color: rgb(241, 243, 250);
+    border-radius: 8px;
+    margin-right: 60px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid rgb(227, 229, 235);
+}
+.applicate2 .ige{
+    display: inline-block;
+    height:80px;
+    width: 100px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    border-width:0 ;
+}
+.app4{
+    transform: scale(0.34);
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+.app5{
+    transform: scale(0.1);
+    position: absolute;
+    top:-210px;
+    left:-210px;
+}
+.app6{
+    transform: scale(0.3);
+    position: absolute;
+    top:-40px;
+    left:-40px ;
+}
+
